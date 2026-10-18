@@ -22,8 +22,11 @@
 [![Contributors](https://img.shields.io/github/contributors/Fission-AI/OpenSpec?style=flat-square&label=Contributors)](https://github.com/Fission-AI/OpenSpec/graphs/contributors)
 
 </details>
+
+</details>
 <p></p>
 Our philosophy:
+
 
 ```text
 → fluid not rigid
@@ -40,6 +43,7 @@ Our philosophy:
 <!-- TODO: Add GIF demo of /opsx:propose → /opsx:archive workflow -->
 
 ## See it in action
+
 
 ```text
 You: /opsx:explore
@@ -112,14 +116,13 @@ Solo, OpenSpec keeps you and your AI honest on a single repo. On a team, the har
 - **Cross-repo features** — one change, one plan, even when the code lands in three repos.
 - **Shared requirements** — a platform team owns the specs; product teams reference them read-only, right where their coding agent can read them. No drifting wiki.
 - **Plan before code** — capture the plan in the store now; the code repos catch up later.
-
 > Stores are in **beta**. Start with the [Stores guide](https://openspec.dev/docs/stores).
-
 ## Quick Start
 
 **Requires Node.js 20.19.0 or higher.** Homebrew installs it as a dependency.
 
 Install OpenSpec globally:
+
 
 ```bash
 npm install -g @fission-ai/openspec@latest
@@ -127,11 +130,13 @@ npm install -g @fission-ai/openspec@latest
 
 Or install the official [Homebrew formula](https://formulae.brew.sh/formula/openspec) on macOS or Linux:
 
+
 ```bash
 brew install openspec
 ```
 
 Then navigate to your project directory and initialize:
+
 
 ```bash
 cd your-project
@@ -150,20 +155,23 @@ Both are in the default profile. If you want the expanded workflow (`/opsx:new`,
 `/opsx:propose` is the canonical name; your tool may spell it `/opsx-propose` (Cursor, GitHub Copilot), `@opsx-propose` (Amazon Q) or `$openspec-propose` (Codex). `openspec init` prints the right form for the tools you picked — see [Supported Tools](https://openspec.dev/docs/supported-tools).
 
 > [!NOTE]
-> Not sure if your tool is supported? [View the full list](https://openspec.dev/docs/supported-tools) – we support 30+ tools and growing.
->
-> Also works with Homebrew, pnpm, yarn, bun, and Nix. [See installation options](https://openspec.dev/docs/installation).
-
+> Not sure if your tool is supported? [View the full list](https://openspec.dev/docs/supported-tools) – we support 30+ tools and growing.Also works with Homebrew, pnpm, yarn, bun, and Nix. [See installation options](https://openspec.dev/docs/installation).
 ## Docs
 
 Full documentation lives at **[openspec.dev/docs](https://openspec.dev/docs)**.
 
-→ **[Quickstart](https://openspec.dev/docs/quickstart)**: your first change, start to finish<br>
-→ **[Set up your project](https://openspec.dev/docs/setup)**: what `openspec init` installs<br>
-→ **[CLI](https://openspec.dev/docs/cli)**: terminal reference<br>
-→ **[Supported Tools](https://openspec.dev/docs/supported-tools)**: tool integrations & install paths<br>
-→ **[Customize](https://openspec.dev/docs/customize)**: profiles, project config, and schemas<br>
-→ **[Stores](https://openspec.dev/docs/stores)**: plan in a separate repo, shared across your team (beta)<br>
+→ **[Quickstart](https://openspec.dev/docs/quickstart)**: your first change, start to finish  
+
+→ **[Set up your project](https://openspec.dev/docs/setup)**: what `openspec init` installs  
+
+→ **[CLI](https://openspec.dev/docs/cli)**: terminal reference  
+
+→ **[Supported Tools](https://openspec.dev/docs/supported-tools)**: tool integrations & install paths  
+
+→ **[Customize](https://openspec.dev/docs/customize)**: profiles, project config, and schemas  
+
+→ **[Stores](https://openspec.dev/docs/stores)**: plan in a separate repo, shared across your team (beta)  
+
 → **[Community Showcase](docs/community.md)**: projects and resources built with and for OpenSpec
 
 ## Community schemas
@@ -171,7 +179,6 @@ Full documentation lives at **[openspec.dev/docs](https://openspec.dev/docs)**.
 Third-party schema bundles distributed via standalone repositories — these provide opinionated workflows that integrate OpenSpec with other tools, similar to how [github/spec-kit's community extension catalog](https://github.com/github/spec-kit/tree/main/extensions) handles tool integrations.
 
 → **[Browse the catalog](docs/customization.md#community-schemas)** in the customization docs.
-
 
 ## Why OpenSpec?
 
@@ -184,9 +191,9 @@ AI coding assistants are powerful but unpredictable when requirements live only 
 
 ### How we compare
 
-**vs. [Spec Kit](https://github.com/github/spec-kit)** (GitHub) — Thorough but heavyweight. Rigid phase gates, lots of Markdown, Python setup. OpenSpec is lighter and lets you iterate freely.
+**vs. ****[Spec Kit](https://github.com/github/spec-kit)** (GitHub) — Thorough but heavyweight. Rigid phase gates, lots of Markdown, Python setup. OpenSpec is lighter and lets you iterate freely.
 
-**vs. [Kiro](https://kiro.dev)** (AWS) — Powerful but you're locked into their IDE and limited to Claude models. OpenSpec works with the tools you already use.
+**vs. ****[Kiro](https://kiro.dev)** (AWS) — Powerful but you're locked into their IDE and limited to Claude models. OpenSpec works with the tools you already use.
 
 **vs. nothing** — AI coding without specs means vague prompts and unpredictable results. OpenSpec brings predictability without the ceremony.
 
@@ -194,11 +201,13 @@ AI coding assistants are powerful but unpredictable when requirements live only 
 
 **Upgrade the package**
 
+
 ```bash
 npm install -g @fission-ai/openspec@latest
 ```
 
-If you installed OpenSpec with Homebrew:
+If you installed OpenSpec with Homebrelllw:
+
 
 ```bash
 brew upgrade openspec
@@ -207,6 +216,7 @@ brew upgrade openspec
 **Refresh agent instructions**
 
 Run this inside each project to regenerate AI guidance and ensure the latest slash commands are active:
+
 
 ```bash
 openspec update
@@ -245,8 +255,6 @@ We collect only command names and version to understand usage patterns. No argum
 See [MAINTAINERS.md](MAINTAINERS.md) for the list of core maintainers and advisors who help guide the project.
 
 </details>
-
-
 
 ## License
 
