@@ -42,7 +42,7 @@ Our philosophy:
 
 <!-- TODO: Add GIF demo of /opsx:propose → /opsx:archive workflow -->
 
-## NOSee it in action
+## NOW See it in actiofn
 
 
 ```text
